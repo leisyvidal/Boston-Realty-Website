@@ -1,0 +1,155 @@
+body{
+	margin:0px;
+	font: 16px Questrial, sans-serif;
+	background-color:#F2F1F1;
+	font-size:1em;
+	}
+
+/*//////Start Fonts//////*/
+h1{
+	font-size:3em;
+	}
+h2{
+    
+    }
+h3{
+    
+    }
+h4{
+    
+    }
+p{
+    
+    }
+
+a{
+	color:black;
+	text-decoration:none;
+	}
+
+/*Start highlight colors*/
+::-moz-selection { 
+    background-color: #FF3333; 
+    color: #FFFFFF;
+    }
+::selection {
+    background-color: #FF3333; 
+    color: #FFFFFF;
+    }
+/*End highlight colors*/
+/*//////End Fonts//////*/
+
+
+/*//////Start Nav//////*/
+header{
+	width:96%;
+	padding:10px 2%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:white;
+	text-align:right;
+	letter-spacing: 1px;
+	}
+
+nav a{
+    margin-right:30px;
+	}	
+nav a:last-child{
+    margin-right:0px;
+	}	
+/*//////End Nav//////*/
+
+/*//////Start Container//////*/
+.container{
+	display:inline-block;
+	margin-top:58px;
+	width:100%;
+	}
+/*//////End Container//////*/
+
+/*//////Start Sections//////*/
+.row100{
+	width:100%;
+	display:inline-block;
+	}
+.row90{
+    width:90%;
+    padding:5%;
+    display: inline-block;
+    }
+.row85{
+    width:85%;
+    padding:7.5%;
+    display: inline-block;
+    }
+.row80{
+    width:80%;
+    padding:10%;
+    display: inline-block;
+    }
+.row75{
+    width:75%;
+    padding:10% 15%;
+    display: inline-block;
+    }
+/*//////End Sections//////*/
+
+
+/*//////Start Grid//////*/
+.half{
+	width:46%;
+	margin:1%;
+	padding:1%;
+	float:left;
+	}
+.third{
+	width:29.33%;
+	margin:1%;
+	padding:1%;
+	float:left;
+	}
+.fourth{
+	width:21%;
+	margin:1%;
+	padding:1%;
+	float:left;
+	}
+.half img, .third img, .fourth img{
+	width:100%;
+	}
+/*//////End Grid//////*/
+
+
+
+/*//////Start Footer//////*/
+footer{
+	width:90%;
+	padding:2% 5%;
+	background-color: #F9F9F9;
+    border-top:1px solid #EBEBEB; 
+    border-bottom:1px solid #EBEBEB;
+    margin-bottom: 0px;
+    display: inline-block;
+	}
+footer p{
+    display: inline;
+    font-size: .8em;
+    color:#666;
+    }
+.social{
+    float:right;
+    text-align: right;
+    }
+.social a{
+    font-size: .95rem;
+	padding-right: 9px;
+	transition: all .25s ease-in-out;
+	}	
+.social a:last-child{
+	padding-right: 0px;
+	}
+.social a:hover{
+    color:gray;
+    }	
+/*//////End Footer//////*/
