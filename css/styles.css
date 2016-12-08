@@ -1,13 +1,14 @@
 body{
-	margin:0px;
-	font: 16px Questrial, sans-serif;
-	background-color:#F2F1F1;
-	font-size:1em;
+	font: normal 16px Questrial, sans-serif;
+	background:#F2F1F1;
+    color: #0C2D52;
+    margin:0 auto;
 	}
 
 /*//////Start Fonts//////*/
 h1{
 	font-size:3em;
+    font-weight: normal;
 	}
 h2{
     
@@ -42,8 +43,8 @@ a{
 
 /*//////Start Nav//////*/
 header{
-	width:96%;
-	padding:10px 2%;
+	width:94%;
+	padding:40px 3%;
 	position:absolute;
 	top:0;
 	left:0;
@@ -51,13 +52,43 @@ header{
 	text-align:right;
 	letter-spacing: 1px;
 	}
-
+nav{
+    width: 33.33%;
+    float: left;
+    text-align: left;
+    }
 nav a{
     margin-right:30px;
 	}	
 nav a:last-child{
     margin-right:0px;
-	}	
+	}
+.logo{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    }
+.logo h1{
+    display:inline;
+    font-size: 25px;
+    letter-spacing: .2px;
+    }
+.logo h1 span{
+    color: #4A90E2;
+    }
+.social{
+    width: 33.33%;
+    float: right;
+    text-align: right;
+    }
+.social a{
+    font-size: 20px;
+    margin-right: 20px;
+    }
+.social a:hover{
+    color: #4A90E2;
+    transition: .3s all ease-in-out;
+    }
 /*//////End Nav//////*/
 
 /*//////Start Container//////*/
@@ -137,19 +168,22 @@ footer p{
     font-size: .8em;
     color:#666;
     }
-.social{
-    float:right;
-    text-align: right;
-    }
-.social a{
-    font-size: .95rem;
-	padding-right: 9px;
-	transition: all .25s ease-in-out;
-	}	
-.social a:last-child{
-	padding-right: 0px;
-	}
-.social a:hover{
-    color:gray;
-    }	
 /*//////End Footer//////*/
+
+
+/*//////Start Media Queries//////*/
+@media all and (max-width:800px){
+    .logo{
+        float:left;
+        width: auto;
+        }
+    nav{
+        float:right;
+        width: auto;
+        margin-top: 3px;
+        }
+    .social{
+        display:none;
+        }
+    }
+/*//////End Media Queries//////*/
