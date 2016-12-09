@@ -5,7 +5,11 @@
 	include('./includes/header.html');
 ?>
     
-<section class="row80">
+<section class="home1">
+    <h2>Find the <span>right</span> apartment at the <span>perfect</span> price.</h2>
+    <a href="#">Find my Next Home</a>
+</section>   
+    
     <h1>This is a header 1.</h1>
     <h2>This is a header 2.</h2>
     <h3>This is a header 3.</h3>
