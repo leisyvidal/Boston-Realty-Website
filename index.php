@@ -8,7 +8,20 @@
 <section class="home1">
     <h2>Find the <span>right</span> apartment at the <span>perfect</span> price.</h2>
     <a href="#">Find my Next Home</a>
-</section>   
+</section>
+
+<section class="row80">
+    <div class="home2">
+        <div class="half">
+            <img src="img/blue2.png" alt="" />
+        </div>
+
+        <div class="half">
+            <h2>How Boston Realty Finds Your Home</h2>
+            <p>Boston Realty is the premier realtor in Boston’s greater metropolitan area. We help you find the perfect apartment amongst various MLS listings with tons of research that is specific to your needs and new home requests.</p>
+        </div>
+    </div>    
+</section>    
     
     <h1>This is a header 1.</h1>
     <h2>This is a header 2.</h2>
