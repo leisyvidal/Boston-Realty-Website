@@ -203,6 +203,27 @@ nav a:last-child{
     }
 /*///End Home 2 Section///*/
 
+
+/*///Start Home 3 Section///*/
+.home3{
+    background: url('../img/photo-1451153378752-16ef2b36ad05.jpeg') no-repeat top right;
+    background-size: 100%;
+    padding:10%;
+    }
+.home3 blockquote{
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 1.55px;
+    max-width: 350px;
+    float:right;
+    padding-right: 5%;
+    }
+.home3 blockquote span{
+    color: #4a90e2;
+    display: block;
+    }
+/*///End Home 3 Section///*/
+
 /*//////Start Footer//////*/
 footer{
 	width:90%;
@@ -250,5 +271,10 @@ footer p{
         }
     .half{
         width:96%;
+        }
+
+    /*Home3 Section*/
+    .home3{
+        background: #dbf1ff;
         }
 /*//////End Media Queries//////*/
