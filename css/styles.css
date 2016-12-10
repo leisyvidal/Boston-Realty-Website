@@ -1,6 +1,6 @@
 body{
 	font: normal 16px Questrial, sans-serif;
-	background:#F2F1F1;
+	background:#FFF;
     color: #0C2D52;
     margin:0 auto;
 	}
@@ -11,9 +11,10 @@ h1{
     font-weight: normal;
 	}
 h2{
-    font: 300 50px Muli;
-    letter-spacing: 2.73px;
-    color: #12191F;
+    font: 300 22px Questrial;
+    line-height: 29px;
+    letter-spacing: 2px;
+    color: #4a90e2;
     }
 h3{
     
@@ -25,6 +26,7 @@ p{
     font:300 15px Muli;
     letter-spacing: 1.27px;
     line-height: 20px;
+    color: #12191F;
     }
 
 a{
@@ -166,6 +168,9 @@ nav a:last-child{
     text-align: center;
     }
 .home1 h2{
+    font: 300 50px Muli;
+    letter-spacing: 2.73px;
+    color: #12191F;
     max-width: 700px;
     margin: 20px auto;
     margin-bottom: 60px;
@@ -192,12 +197,6 @@ nav a:last-child{
     max-width: 800px;
     margin: 0 auto;
     }
-.home2 h2{
-    font-size: 22px;
-    line-height: 29px;
-    letter-spacing: 2px;
-    color: #4a90e2;
-    }
 .home2 p{
     max-width: 500px;
     }
@@ -223,6 +222,28 @@ nav a:last-child{
     display: block;
     }
 /*///End Home 3 Section///*/
+
+
+/*///Start Home 4 Section///*/
+.home4 h2{
+    margin-bottom: 5px;
+    }
+.home4 p{
+    margin-top:0;
+    }
+.home4 h2, .home4 p{
+    margin-left: 2%;
+    }
+.home4 .third p{
+    margin: 10px 0px 3px 0px;
+    }
+.home4 .third p:nth-child(3){
+    color: #777;
+    font-size: 12px;
+    letter-spacing: 1.09px;
+    margin: 0;
+    }
+/*///End Home 4 Section///*/
 
 /*//////Start Footer//////*/
 footer{
@@ -263,7 +284,7 @@ footer p{
         font-size: 30px;
         max-width: 500px;
         }
-    }
+    
 
     /*Home2 Section*/
     .home2 .half:first-child{
@@ -277,4 +298,14 @@ footer p{
     .home3{
         background: #dbf1ff;
         }
+
+    /*Home4 Section*/
+    .third{
+        width: 96%;
+        margin-bottom: 30px;
+        }
+    .home4 .third:first-child{
+        display: none;
+        }
+}
 /*//////End Media Queries//////*/
