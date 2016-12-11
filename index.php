@@ -48,6 +48,11 @@
         <p>$3590 / month</p>
     </div>
 </section>
+
+<section class="row85 home5">
+    <h2>Ready to find a home?</h2>
+    <a href="#">View All Listings</a>
+</section>
         
 
 <?php

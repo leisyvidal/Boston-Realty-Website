@@ -245,6 +245,33 @@ nav a:last-child{
     }
 /*///End Home 4 Section///*/
 
+/*///Start Home 5 Section///*/
+.home5{
+    background: url('../img/photo-1462530260150-162092dbf011.jpeg') 25% 85% no-repeat;
+    background-size: 100%;
+    text-align: center;
+    }
+.home5 h2{
+    color: #FFF;
+    margin-bottom: 20px;
+    }
+.home5 a{
+    color: #fff;
+    font-size:17px;
+    line-height: 18px;
+    letter-spacing: 1.55px;
+    border: 1px solid #FFF;
+    padding: 10px 40px;
+    margin-top: 5px;
+    display: inline-block;
+    }
+.home5 a:hover{
+    background: #FFF;
+    color: #12191f;
+    transition: .3s all ease-in-out;
+    }
+/*///End Home 5 Section///*/
+
 /*//////Start Footer//////*/
 footer{
 	width:90%;
