@@ -36,11 +36,11 @@ a{
 
 /*Start highlight colors*/
 ::-moz-selection { 
-    background-color: #FF3333; 
+    background-color: #4a90e2; 
     color: #FFFFFF;
     }
-::selection {
-    background-color: #FF3333; 
+::selection{
+    background-color: #4a90e2; 
     color: #FFFFFF;
     }
 /*End highlight colors*/
@@ -207,7 +207,7 @@ nav a:last-child{
 .home3{
     background: url('../img/photo-1451153378752-16ef2b36ad05.jpeg') no-repeat top right;
     background-size: 100%;
-    padding:10%;
+    padding:10% 5%;
     }
 .home3 blockquote{
     font-size: 17px;
@@ -276,16 +276,51 @@ nav a:last-child{
 footer{
 	width:90%;
 	padding:2% 5%;
-	background-color: #F9F9F9;
-    border-top:1px solid #EBEBEB; 
-    border-bottom:1px solid #EBEBEB;
+	background-color: #12191F;
     margin-bottom: 0px;
     display: inline-block;
 	}
+footer h3{
+    color: white;
+    font-weight: normal;
+    }
 footer p{
+    color: #747474;
+    }
+footer a{
+    font: 300 15px Muli;
+    letter-spacing: 1.27px;
+    line-height: 32px;
+    color: #747474;
+    display: block;
+    }
+footer a:hover, .bottombar .social a:hover, .bottombar p a:hover{
+    color: #FFF;
+    transition: .3s all ease-in-out;
+    }
+.bottombar{
+    border-top: 1px solid #141D25;
+    width: 100%;
+    display: inline-block;
+    margin-top: 50px;
+    padding-top: 5px;
+    }
+.bottombar p{
+    margin-top: 25px;
+    }
+.bottombar p, .bottombar p a{
+    color:#4a90e2;
+    float: left;
+    }
+.bottombar .social{
+    float:right;
+    text-align: right;
+    margin-top: 20px;
+    }
+.bottombar .social a{
+    color:#4a90e2;
     display: inline;
-    font-size: .8em;
-    color:#666;
+    font-size: 22px;
     }
 /*//////End Footer//////*/
 
@@ -334,5 +369,8 @@ footer p{
     .home4 .third:first-child{
         display: none;
         }
+    
+    /*Start Footer*/
+    
 }
 /*//////End Media Queries//////*/
